@@ -1,0 +1,57 @@
+
+/*--------------------*/
+/* CALL TO ACTION */
+/*--------------------*/
+
+#mu-call-to-action {
+	background-image: url(assets/images/call-to-action-bg.jpg);
+	float: left;
+	position: relative;
+	width: 100%;
+}
+
+#mu-call-to-action:before {
+	background: #0091E3;
+	content: '';
+	position: absolute;
+	opacity: 0.84;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.mu-call-to-action-area {
+	display: inline;
+	float: left;
+	padding: 70px 0;
+	width: 100%;
+}
+
+.mu-call-to-action-left {
+	color: #fff;
+	display: inline;
+	float: left;
+	max-width: 70%;
+}
+
+.mu-call-to-action-left h2 {
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.mu-call-to-action-left p {
+	margin-bottom: 0;
+}
+
+.mu-quote-btn {
+	background-color: #fff;
+	color: #0091ea;
+	float: right;
+}
+
+.mu-quote-btn:hover,
+.mu-quote-btn:focus {
+	color: #0091ea;
+}

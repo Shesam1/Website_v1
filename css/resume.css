@@ -40,6 +40,13 @@ h2 {
   font-size: 1.35rem;
   padding-top: 1.2rem; }
 
+.subheading1 {
+   text-align: center;
+   font-size: 1.35rem;
+   font-weight: 500;
+   font-family: 'Saira Extra Condensed', serif;
+  }
+
 .list-social-icons a {
   color: #6bdcf5; }
   .list-social-icons a:hover {
@@ -71,13 +78,13 @@ h2 {
       margin: auto auto 0;
       padding: 0.5rem; }
       #sideNav .navbar-brand .img-profile1 {
-        -webkit-filter: drop-shadow(0px 0px 5px #000000);
-        filter: drop-shadow(0px 0px 5px #000000);
+        -webkit-filter: drop-shadow(0px 0px 15px #000000);
+        filter: drop-shadow(0px 0px 15px #000000);
         /*box-shadow: 0px 5px #000000;*/
         /*border: 0.5rem solid rgba(255, 255, 255, 0.2);*/ }
       #sideNav .navbar-brand .img-profile1:hover {
-        -webkit-filter: drop-shadow(0px 0px 5px rgb(255,255,255,0.2));
-        filter: drop-shadow(0px 0px 5px rgb(255,255,255,0.2));
+        -webkit-filter: drop-shadow(0px 0px 15px rgb(255,255,255,0.8));
+        filter: drop-shadow(0px 0px 15px rgb(255,255,255,0.8));
       }
 
     #sideNav .navbar-collapse {
@@ -128,8 +135,19 @@ a {
 
 a.company {
   color: #6bdcf5;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center }
   a.company:hover, a.company:focus, a.company:active {
+    background-color: rgb(107, 220, 245, 0.05);
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    color: #6bdcf5; 
+  }
+a.portfolio {
+  color: #6bdcf5;
+  font-weight: 700; }
+  a.portfolio:hover, a.portfolio:focus, a.portfolio:active {
     background-color: rgb(107, 220, 245, 0.05);
     padding: 0.5rem;
     text-decoration: none;
@@ -144,4 +162,71 @@ a.company {
     border-radius: 25% !important;
 }
 
+.mb-6,
+.my-6 {
+  margin-bottom: 3.5rem !important;
+}
 
+.mu-title {
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 35px;
+  padding: 0 25%;
+}
+
+.mu-title h2 {
+  color: #323232;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.mu-title p {
+
+}
+
+.mu-about-left {
+  display: inline;
+  float: left;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.mu-about-right {
+  display: inline;
+  float: left;
+  padding-left: 15px;
+  width: 100%
+}
+
+.mu-about-right ul {}
+
+.mu-about-right ul li {
+  list-style: none;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.mu-about-right ul li h3 {
+  border-bottom: 3px solid #e5e5e5;
+  color: #323232;
+  font-size: 20px;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.mu-about-right p {
+  font-size: 14px;
+}
+
+.top {
+  position: absolute;
+  left:0;
+  right:0;
+  margin:auto;
+  text-align:center;
+  font-size:6em;
+}
